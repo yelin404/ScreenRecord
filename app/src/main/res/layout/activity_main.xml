@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_start_service"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="启动投影服务"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btn_stop_service"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="关闭投影服务"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_start_recorder"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="Start Recorder"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_stop_recorder"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="Stop Recorder"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_deviceList"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="设备列表"
+        android:textSize="25dp" />
+
+
+
+</LinearLayout>
